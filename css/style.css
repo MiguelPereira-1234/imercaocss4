@@ -1,0 +1,135 @@
+*{
+	margin: 0,3;
+	padding: 0;
+box-sizing: border-box;
+
+}
+header{
+	height: 100vh;
+
+	display: flex;
+	justify-content:center;
+align-items:center;
+
+}
+body {
+	background-image: url(https://wallpapercave.com/wp/NcUxIhO.jpg);
+	font-family: Arial;
+	height: 280px;
+
+		}
+		@media(min-widht: 300px){
+        body{
+			font-size: 5px;
+		}
+		}
+a{
+	color: darkblue;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.menu {
+	background-color: aquamarine;
+	position: fixed;
+	width: 200vh;
+
+	top: 0;
+}			
+.menu li {	
+		list-style:none;
+		font-family: 'Press Start 2P', cursive;
+
+}
+.menu ul{
+	display: flex;
+	justify-content: space-around
+}
+.site-title{
+	text-align: center;
+	color: rgb(43, 255, 0)(14, 13, 13);
+	justify-content: center;
+    
+}
+.site-subtitle{
+	text-align: center;
+	font-family: 'Major Mono Display', monospace;
+	color:rgb(255, 255, 255);
+	justify-content: center;
+}
+.img-prtfólio{
+	color: rgb(255, 255, 255);
+	font-family: 'Press Start 2P', cursive;
+	padding: 2em;
+ width: 280px;
+ height: 280px;
+ border-radius: 50%;
+ 
+}
+.img-prtfólio:hover{
+	
+	transform: scale(1.5) rotate(360deg); 
+	transition: transform 500ms;
+}
+menu a{
+	color:blue;
+	
+
+	padding: 5px 50px;
+
+}
+.Sobre-mim{
+
+	
+	color: rgb(255, 255, 255);
+	font-family: 'Press Start 2P', cursive;
+
+}
+
+.portfolio .grid{
+	color: rgb(255, 255, 255);
+	font-family: 'Press Start 2P', cursive;
+
+	height: 100vh;
+	grid-template-columns: 100vh 100vh;
+	display: grid;
+}
+.contato{
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-family: 'Press Start 2P', cursive;
+	padding: 3em;
+	min-height: 100vh;
+	font-size: 3em;
+}
+.contato .grid-icons{
+	
+	font-size: 3em;
+	
+
+}
+.grid-icons i{
+	color: rgb(255, 166, 0);
+}
+.contato a:hover{
+	text-decoration: none;
+	text-shadow: 8px 10px 5px rgb(2, 255, 56);
+	transition:text-shadow 1;
+
+}
+.menu a:hover{
+	text-shadow: rgb(153, 255, 127) 8px 10px 5px;
+}
+	.titulo{
+		transform: scale(0.2) translateY(50vh);
+		opacity: 0;
+		animation: linear 2s animtit forwards;
+
+	}
+	@keyframes animtit {
+	 100%{
+		transform: scale(1) translateY(0);
+		opacity: 1;
+	 }
+	}
